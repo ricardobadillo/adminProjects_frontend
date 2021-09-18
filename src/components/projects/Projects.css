@@ -1,0 +1,64 @@
+.container_projects {
+    display: flex;
+    min-height: 100vh;
+}
+
+.div_new_project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.div_new_project form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button_project {
+    background-color: #0077b6;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem 0rem;
+    outline: none;
+    padding: .5rem 0rem;
+}
+
+.item_list {
+    list-style: none;
+    margin-bottom: .75rem;
+}
+
+.button_list {
+    background-color: #0077b6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: .25rem 1rem;
+}
+
+.button_project:hover, .button_list:hover {
+    background-color: white;
+    color: #0077b6;
+}
+
+.input_project {
+    border: none;
+    padding: 0.5rem 0rem;
+}
+
+.principal {
+    flex: 1;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    margin-bottom: .75rem;
+    padding: .25rem 0rem;
+    text-align: center;
+}

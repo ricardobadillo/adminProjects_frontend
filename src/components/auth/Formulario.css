@@ -1,0 +1,127 @@
+.container_login {
+    background-color: #023e8a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.div_login {
+    align-self: center;
+    background-color: #0077b6;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.25);
+    margin: 0 auto;
+    max-height: 400px;
+    max-width: 400px;
+    padding: 2rem 0rem;
+    width: 85%;
+}
+
+.form_login {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form_login > div {
+    display: flex;
+    font-size: large;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: .5rem 1.5rem;
+}
+
+.h1_login {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.input_login {
+    border: 2.5px solid #023e8a;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: .25rem 1rem;
+}
+
+.input_login:focus{
+    outline: 0;
+}
+
+.button_login {
+    background-color: #023e8a;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: .5rem 1rem;
+    width: 75%;
+}
+
+.button_login:hover{
+    background-color: #0077b6;
+}
+
+.link {
+    color: lightgrey;
+    font-size: 1.25rem;
+    margin-left: 2.5rem;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+}
+
+@media (max-width: 380px) {
+
+    .div_login {
+        width: 95%;
+    }
+
+    .h1_login {
+        font-size: 1.75rem;
+        font-weight: 900;
+    }
+
+    .form_login > div {
+        font-size: medium;
+        margin: .5rem .75rem;
+    }
+
+    .input_login {
+        padding: .25rem 0rem;
+    }
+}
+
+@media (min-width: 680px) {
+    .form_login > div {
+        margin: .5rem 2.5rem;
+    }
+}
+
+.alert-ok {
+    background-color: rgb(109, 211, 109);
+    color: rgb(2, 103, 2);
+    font-size: medium;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    text-align: center;
+    width: 50%;
+}
+
+.alert-error {
+    background-color: rgb(230, 78, 78);
+    color: white;
+    font-size: medium;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    padding: .25rem;
+    text-align: center;
+    width: 50%;
+}

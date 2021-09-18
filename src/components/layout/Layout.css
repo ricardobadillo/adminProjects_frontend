@@ -1,0 +1,78 @@
+.aside {
+    background-color: #023e8a;
+    flex: 0 0 100px;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.aside h1 {
+    text-align: center;
+}
+
+.span {
+    font-size: xx-large;
+}
+
+.projects {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.header {
+    background-color: #0077b6;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.username {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.username span {
+    font-weight: 800;
+}
+
+.enlace {
+    background-color: #023e8a;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    background-color: #0077b6;
+}
+
+@media (max-width: 580px) {
+
+    .aside {
+        padding: 1.5rem;
+    }
+
+    .nav {
+        text-align: center;
+    }
+    
+    .header {
+        flex-direction: column;
+        padding: 1.75rem;
+    }
+
+    .header p {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+}
